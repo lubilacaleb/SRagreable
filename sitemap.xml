@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -6,5 +5,24 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://lubilacaleb.github.io/SRagreable/boutique.html</loc>
+  </url>
+  <url>
+    <loc>https://lubilacaleb.github.io/SRagreable/nouveautes.html</loc>
+  </url>
+  <url>
+    <loc>https://lubilacaleb.github.io/SRagreable/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://lubilacaleb.github.io/SRagreable/panier.html</loc>
+  </url>
+  <url>
+    <loc>https://lubilacaleb.github.io/SRagreable/apropos.html</loc>
+  </url>
+  <url>
+    <loc>https://lubilacaleb.github.io/SRagreable/confidentialite.html</loc>
+  </url>
 </urlset>
+
 
