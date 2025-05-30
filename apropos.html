@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="canonical" href="https://lubilacaleb.github.io/SRagreable/apropos.html">  
     <style>
-        /* Importation d'une police Google Fonts */
+              /* Importation d'une police Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
 * {
@@ -19,28 +19,31 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #fdfdfd;
-    color: #222;
-    line-height: 1.6;
+    background-color: #f5f5f5;  /* Fond gris clair, plus doux */
+    color: #333;  /* Texte en gris foncé */
+    line-height: 1.7;
 }
 
+/* Liens */
 a {
-    color: #000;
+    color: #3498db;  /* Bleu vif pour les liens */
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
+    color: #2980b9;  /* Un bleu plus foncé au survol */
     text-decoration: underline;
 }
 
-/* Navigation */
+/* Barre de navigation */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 15px 30px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid #e0e0e0;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -48,12 +51,14 @@ a:hover {
 
 .navbar img {
     height: 50px;
+    border-radius: 5px;
 }
 
 .nav-center a,
 .nav-right a {
     margin: 0 15px;
     font-weight: 500;
+    color: #333;
 }
 
 .navbar a.logo {
@@ -61,89 +66,56 @@ a:hover {
     align-items: center;
 }
 
-/* Bannière */
-.banniere {
-    background-color: #ffe6e6;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    color: #b30000;
-}
-
-/* Section Accueil */
-.image-accueil {
-    text-align: center;
-    padding: 40px 20px;
-}
-
-.image-accueil h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-.image-accueil p {
-    font-size: 1.1em;
-    margin-bottom: 25px;
-}
-
-.image-boutique {
-    width: 90%;
-    max-width: 400px;
-    margin: 15px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-/* Bouton */
-.btn {
-    display: inline-block;
-    margin: 30px auto;
-    padding: 12px 30px;
-    background-color: #000;
-    color: #fff;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #333;
-}
-
-/* Contenu principal */
+/* Section principale */
 main.content {
-    max-width: 800px;
+    max-width: 900px;
     margin: 40px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 30px;
+    background-color: #fff;  /* Fond blanc */
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
 main.content h1 {
+    font-size: 2.5em;
+    color: #3498db;  /* Bleu vif pour le titre principal */
     margin-bottom: 20px;
-    font-size: 2em;
     text-align: center;
 }
 
 main.content h2 {
     margin-top: 30px;
-    margin-bottom: 10px;
-    color: #444;
+    font-size: 1.6em;
+    color: #2980b9;  /* Bleu plus foncé pour les sous-titres */
+}
+
+main.content p {
+    font-size: 1.1em;
+    color: #333;  /* Gris foncé pour le texte */
+    margin: 15px 0;
+    text-align: justify;
 }
 
 main.content ul {
     list-style-type: disc;
-    padding-left: 20px;
+    padding-left: 30px;
+    margin: 15px 0;
+    color: #555;
+}
+
+main.content li {
+    margin-bottom: 10px;
+    font-size: 1.05em;
 }
 
 /* Pied de page */
 footer {
     text-align: center;
-    padding: 25px 10px;
-    background-color: #f8f8f8;
-    font-size: 0.9em;
-    border-top: 1px solid #ddd;
+    padding: 25px 15px;
+    background-color: #f4f4f4;
+    font-size: 0.95em;
+    color: #555;
+    border-top: 1px solid #ccc;
 }
 
 .footer-links, .socials {
@@ -151,7 +123,12 @@ footer {
 }
 
 footer a {
-    margin: 0 8px;
+    margin: 0 10px;
+    color: #3498db;  /* Bleu vif pour les liens */
+}
+
+footer a:hover {
+    color: #2980b9;  /* Un bleu plus foncé au survol */
 }
 
 /* Responsive */
@@ -170,11 +147,12 @@ footer a {
         margin: 8px 0;
     }
 
-    .image-boutique {
-        width: 100%;
-        max-width: 90%;
+    main.content {
+        padding: 20px;
+        margin: 20px 10px;
     }
 }
+
 
     </style>
 </head>
